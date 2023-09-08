@@ -2,13 +2,14 @@ package com.slvmk.roundtableexperiments
 
 import androidx.activity.ComponentActivity
 
-object FeaturesListContent {
+object UseCasesContainer {
 
     val ITEMS: MutableList<PlaceholderItem> = ArrayList()
 
     init {
         //TODO: add experimental features here to the list
-        //addItem(createPlaceholderItem(FeatureName, FeatureActivityClass::class.java))
+        addItem(PlaceholderItem("Use case: show Hello Compose World", HelloComposeWorldActivity::class.java))
+        addItem(PlaceholderItem("Test Use Case2", HelloComposeWorldActivity::class.java))
     }
 
     private fun addItem(item: PlaceholderItem) {

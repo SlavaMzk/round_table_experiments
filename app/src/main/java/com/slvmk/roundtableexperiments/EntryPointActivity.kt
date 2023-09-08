@@ -21,7 +21,7 @@ class EntryPointActivity : AppCompatActivity() {
 
         val recyclerView: RecyclerView = binding.itemList
 
-        recyclerView.adapter = SimpleItemRecyclerViewAdapter(FeaturesListContent.ITEMS)
+        recyclerView.adapter = SimpleItemRecyclerViewAdapter(UseCasesContainer.ITEMS)
     }
 
     class SimpleItemRecyclerViewAdapter(

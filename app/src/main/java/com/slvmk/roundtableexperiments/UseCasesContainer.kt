@@ -1,6 +1,7 @@
 package com.slvmk.roundtableexperiments
 
 import androidx.activity.ComponentActivity
+import com.slvmk.compose.HelloComposeWorldActivity
 
 object UseCasesContainer {
 

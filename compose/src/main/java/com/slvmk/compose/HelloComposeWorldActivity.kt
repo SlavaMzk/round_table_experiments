@@ -1,4 +1,4 @@
-package com.slvmk.roundtableexperiments
+package com.slvmk.compose
 
 import android.os.Bundle
 import android.widget.Toast

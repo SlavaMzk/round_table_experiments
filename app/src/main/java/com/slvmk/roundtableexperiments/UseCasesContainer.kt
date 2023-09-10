@@ -2,6 +2,7 @@ package com.slvmk.roundtableexperiments
 
 import androidx.activity.ComponentActivity
 import com.slvmk.compose.HelloComposeWorldActivity
+import com.slvmk.compose_courses.google.basic.dogs.DogsListActivity
 
 object UseCasesContainer {
 
@@ -10,7 +11,7 @@ object UseCasesContainer {
     init {
         //TODO: add experimental features here to the list
         addItem(PlaceholderItem("Use case: show Hello Compose World", HelloComposeWorldActivity::class.java))
-        addItem(PlaceholderItem("Test Use Case2", HelloComposeWorldActivity::class.java))
+        addItem(PlaceholderItem("Use case: show list of images (dogs)", DogsListActivity::class.java))
     }
 
     private fun addItem(item: PlaceholderItem) {

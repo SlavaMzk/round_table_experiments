@@ -24,4 +24,9 @@
     <string name="about">About:</string>
     <string name="years_old">%d years old</string>
     <string name="expand_button_content_description">See more or less information about a dog.</string>
+
+    <string name="loading_failed">Failed to load</string>
+    <string name="retry">Retry</string>
+    <string name="loading">Loading</string>
+    <string name="mars_photo">Mars photo</string>
 </resources>

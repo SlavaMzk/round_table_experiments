@@ -16,3 +16,5 @@ rootProject.name = "RoundTableExperiments"
 include ':app'
 include ':compose'
 include ':compose_courses'
+include ':myapplication'
+include ':jack_experiment'

@@ -1,0 +1,1 @@
+TODO: add simple implementation of MVVM and improve it

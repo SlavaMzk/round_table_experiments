@@ -1,0 +1,1 @@
+TODO: add simple implementation of clean architecture and improve it

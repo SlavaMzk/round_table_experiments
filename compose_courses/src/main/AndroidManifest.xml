@@ -6,5 +6,6 @@
     <application>
         <activity android:name=".google.basic.dogs.DogsListActivity"/>
         <activity android:name=".google.basic.marsphotos.MarsPhotoActivity"/>
+        <activity android:name=".google.basic.cupcake.ui.CupcakeActivity"/>
     </application>
 </manifest>

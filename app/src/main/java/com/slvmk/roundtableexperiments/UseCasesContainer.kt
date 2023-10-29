@@ -18,6 +18,11 @@ object UseCasesContainer {
         addItem(PlaceholderItem("Use case: show birthday card", BirthdayActivity::class.java))
         addItem(PlaceholderItem("Use case: load list of images (Mars)", MarsPhotoActivity::class.java))
         addItem(PlaceholderItem("Use case: simple navigation (Cupcake)", CupcakeActivity::class.java))
+        /** TODO: add use cases for
+            Exception propagation (coroutines)
+            Using AndroidView in Jetpack Compose use case
+            Using ComposeView
+        */
     }
 
     private fun addItem(item: PlaceholderItem) {

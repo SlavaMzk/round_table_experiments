@@ -6,6 +6,7 @@ import com.slvmk.compose.HelloComposeWorldActivity
 import com.slvmk.compose_courses.google.basic.cupcake.ui.CupcakeActivity
 import com.slvmk.compose_courses.google.basic.dogs.DogsListActivity
 import com.slvmk.compose_courses.google.basic.marsphotos.MarsPhotoActivity
+import com.slvmk.compose_courses.google.medium.OnboardingScreenActivity
 
 object UseCasesContainer {
 
@@ -18,6 +19,9 @@ object UseCasesContainer {
         addItem(PlaceholderItem("Use case: show birthday card", BirthdayActivity::class.java))
         addItem(PlaceholderItem("Use case: load list of images (Mars)", MarsPhotoActivity::class.java))
         addItem(PlaceholderItem("Use case: simple navigation (Cupcake)", CupcakeActivity::class.java))
+
+
+        addItem(PlaceholderItem("Use case: switch screens using simple state (Onboarding)", OnboardingScreenActivity::class.java))
         /** TODO: add use cases for
             Exception propagation (coroutines)
             Using AndroidView in Jetpack Compose use case

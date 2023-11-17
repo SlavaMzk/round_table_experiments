@@ -2,6 +2,7 @@ package com.slvmk.roundtableexperiments
 
 import androidx.activity.ComponentActivity
 import com.example.jack_experiment.birthday.BirthdayActivity
+import com.slvmk.compose.ComposeViewUseCaseActivity
 import com.slvmk.compose.HelloComposeWorldActivity
 import com.slvmk.compose_courses.google.basic.cupcake.ui.CupcakeActivity
 import com.slvmk.compose_courses.google.basic.dogs.DogsListActivity
@@ -22,10 +23,11 @@ object UseCasesContainer {
 
 
         addItem(PlaceholderItem("Use case: switch screens using simple state (Onboarding)", OnboardingScreenActivity::class.java))
+        addItem(PlaceholderItem("Use case: ComposeView in View System", ComposeViewUseCaseActivity::class.java))
+
         /** TODO: add use cases for
             Exception propagation (coroutines)
             Using AndroidView in Jetpack Compose use case
-            Using ComposeView
         */
     }
 

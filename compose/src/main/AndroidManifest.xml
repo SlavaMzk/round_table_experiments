@@ -4,5 +4,6 @@
     <application
         android:allowBackup="true">
         <activity android:name=".HelloComposeWorldActivity"/>
+        <activity android:name=".ComposeViewUseCaseActivity"/>
     </application>
 </manifest>

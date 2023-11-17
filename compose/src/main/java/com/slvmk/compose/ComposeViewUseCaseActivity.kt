@@ -8,6 +8,11 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.slvmk.compose.databinding.ComposeViewSampleLayoutBinding
 import com.slvmk.roundtableexperiments.ui.theme.RoundTableExperimentsTheme
 
+/**
+ * More information:
+ * https://developer.android.com/jetpack/compose/migrate/interoperability-apis/compose-in-views
+ *
+ */
 class ComposeViewUseCaseActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

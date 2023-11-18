@@ -2,6 +2,7 @@ package com.slvmk.roundtableexperiments
 
 import androidx.activity.ComponentActivity
 import com.example.jack_experiment.birthday.BirthdayActivity
+import com.slvmk.compose.AccompanistNavigationMaterialSampleActivity
 import com.slvmk.compose.AndroidViewUseCaseActivity
 import com.slvmk.compose.ComposeViewUseCaseActivity
 import com.slvmk.compose.HelloComposeWorldActivity
@@ -26,6 +27,8 @@ object UseCasesContainer {
         addItem(PlaceholderItem("Use case: switch screens using simple state (Onboarding)", OnboardingScreenActivity::class.java))
         addItem(PlaceholderItem("Use case: ComposeView in View System", ComposeViewUseCaseActivity::class.java))
         addItem(PlaceholderItem("Use case: Android View in Compose", AndroidViewUseCaseActivity::class.java))
+        addItem(PlaceholderItem("Use case: Accompanist for Navigation Material", AccompanistNavigationMaterialSampleActivity::class.java))
+
         /** TODO: add use cases for
             Exception propagation (coroutines)
         */

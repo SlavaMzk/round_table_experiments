@@ -6,5 +6,6 @@
         <activity android:name=".HelloComposeWorldActivity"/>
         <activity android:name=".ComposeViewUseCaseActivity"/>
         <activity android:name=".AndroidViewUseCaseActivity"/>
+        <activity android:name=".AccompanistNavigationMaterialSampleActivity"/>
     </application>
 </manifest>

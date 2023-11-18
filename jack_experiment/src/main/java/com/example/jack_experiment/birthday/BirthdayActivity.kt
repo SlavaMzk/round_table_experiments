@@ -1,4 +1,3 @@
-@file:OptIn(ExperimentalMaterial3Api::class)
 package com.example.jack_experiment.birthday
 
 import android.os.Bundle

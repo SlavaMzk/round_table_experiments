@@ -6,7 +6,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.ViewCompositionStrategy
 import androidx.compose.ui.tooling.preview.Preview
 import com.slvmk.compose.databinding.ComposeViewSampleLayoutBinding
-import com.slvmk.roundtableexperiments.ui.theme.RoundTableExperimentsTheme
+import com.slvmk.compose.theme.RoundTableExperimentsTheme
 
 /**
  * More information:

@@ -64,8 +64,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import com.slvmk.compose_courses.R
-import com.slvmk.compose_courses.google.basic.unit1_3.data.Dog
-import com.slvmk.compose_courses.google.basic.unit1_3.data.dogs
+import com.slvmk.compose_courses.google.basic.dogs.data.Dog
+import com.slvmk.compose_courses.google.basic.dogs.data.dogs
 import com.slvmk.compose_courses.ui.theme.MyTheme
 
 class DogsListActivity : ComponentActivity() {

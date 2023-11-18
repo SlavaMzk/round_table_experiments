@@ -24,7 +24,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.slvmk.roundtableexperiments.ui.theme.RoundTableExperimentsTheme
+import com.slvmk.compose.theme.RoundTableExperimentsTheme
 
 class HelloComposeWorldActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

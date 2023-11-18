@@ -1,4 +1,4 @@
-package com.slvmk.roundtableexperiments.ui.theme
+package com.slvmk.compose.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

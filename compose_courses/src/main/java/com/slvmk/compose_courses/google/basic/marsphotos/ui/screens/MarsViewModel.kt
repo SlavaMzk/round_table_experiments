@@ -42,7 +42,6 @@ sealed interface MarsUiState {
 class MarsViewModel(private val marsPhotosRepository: MarsPhotosRepository) : ViewModel() {
     /** The mutable State that stores the status of the most recent request */
     var marsUiState: MarsUiState by mutableStateOf(MarsUiState.Loading)
-        private set
 
     /**
      * Call getMarsPhotos() on init so we can display status immediately.

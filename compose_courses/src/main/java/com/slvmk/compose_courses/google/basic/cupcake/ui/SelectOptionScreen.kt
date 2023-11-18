@@ -37,7 +37,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.cupcake.ui.components.FormattedPriceLabel
+import com.slvmk.compose_courses.google.basic.cupcake.ui.components.FormattedPriceLabel
 import com.slvmk.compose_courses.R
 
 /**
@@ -50,10 +50,10 @@ import com.slvmk.compose_courses.R
 fun SelectOptionScreen(
     subtotal: String,
     options: List<String>,
+    modifier: Modifier = Modifier,
     onSelectionChanged: (String) -> Unit = {},
     onCancelButtonClicked: () -> Unit = {},
-    onNextButtonClicked: () -> Unit = {},
-    modifier: Modifier = Modifier
+    onNextButtonClicked: () -> Unit = {}
 ){
     var selectedValue by rememberSaveable { mutableStateOf("") }
 

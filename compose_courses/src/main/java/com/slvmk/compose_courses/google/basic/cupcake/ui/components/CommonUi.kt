@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.cupcake.ui.components
+package com.slvmk.compose_courses.google.basic.cupcake.ui.components
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -23,7 +23,7 @@ import androidx.compose.ui.res.stringResource
 import com.slvmk.compose_courses.R
 
 /**
- * Composable that displays formatted [price] that will be formatted and displayed on screen
+ * Composable that displays formatted price that will be formatted and displayed on screen
  */
 @Composable
 fun FormattedPriceLabel(subtotal: String, modifier: Modifier = Modifier) {

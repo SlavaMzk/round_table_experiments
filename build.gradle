@@ -2,6 +2,14 @@
 buildscript {
     ext {
         retrofitVersion = "2.9.0"
+        glideVersion = '4.16.0'
+        hilt_version = '2.48'
+        coroutinesVersion = '1.7.3'
+        lifecycle_version = '2.6.2'
+        fragmentVersion = '1.6.1'
+    }
+    dependencies {
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$hilt_version"
     }
 }
 plugins {

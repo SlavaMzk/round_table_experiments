@@ -10,6 +10,7 @@ import com.slvmk.compose_courses.google.basic.cupcake.ui.CupcakeActivity
 import com.slvmk.compose_courses.google.basic.dogs.DogsListActivity
 import com.slvmk.compose_courses.google.basic.marsphotos.MarsPhotoActivity
 import com.slvmk.compose_courses.google.medium.OnboardingScreenActivity
+import com.slvmk.restaurants_demo.ui.business_location.RestaurantsDemoActivity
 
 object UseCasesContainer {
 
@@ -28,6 +29,7 @@ object UseCasesContainer {
         addItem(PlaceholderItem("Use case: ComposeView in View System", ComposeViewUseCaseActivity::class.java))
         addItem(PlaceholderItem("Use case: Android View in Compose", AndroidViewUseCaseActivity::class.java))
         addItem(PlaceholderItem("Use case: Accompanist for Navigation Material", AccompanistNavigationMaterialSampleActivity::class.java))
+        addItem(PlaceholderItem("Use case: Show Restaurants Demo (+Retrofit)", RestaurantsDemoActivity::class.java))
 
         /** TODO: add use cases for
             Exception propagation (coroutines)

@@ -13,6 +13,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="image for the restaurant item"
         tools:src="@tools:sample/backgrounds/scenic" />
 
     <TextView

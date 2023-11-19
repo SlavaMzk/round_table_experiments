@@ -97,8 +97,7 @@ class OrderViewModel : ViewModel() {
         if (pickupOptions()[0] == pickupDate) {
             calculatedPrice += PRICE_FOR_SAME_DAY_PICKUP
         }
-        val formattedPrice = NumberFormat.getCurrencyInstance().format(calculatedPrice)
-        return formattedPrice
+        return NumberFormat.getCurrencyInstance().format(calculatedPrice)
     }
 
     /**

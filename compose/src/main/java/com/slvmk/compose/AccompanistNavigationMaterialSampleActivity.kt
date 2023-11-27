@@ -21,9 +21,8 @@ import com.google.accompanist.navigation.material.ExperimentalMaterialNavigation
 import com.google.accompanist.navigation.material.ModalBottomSheetLayout
 import com.google.accompanist.navigation.material.bottomSheet
 import com.google.accompanist.navigation.material.rememberBottomSheetNavigator
-import java.util.UUID
-
 import com.slvmk.compose.theme.RoundTableExperimentsTheme
+import java.util.UUID
 
 /**
  * https://github.com/google/accompanist/tree/main/navigation-material

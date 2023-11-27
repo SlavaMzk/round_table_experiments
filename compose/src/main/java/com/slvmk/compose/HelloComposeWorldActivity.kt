@@ -65,7 +65,7 @@ fun GreetingPreview() {
 @Composable
 fun ComposeQuadrantApp() {
     Column(Modifier.fillMaxWidth()) {
-        Row(Modifier.weight(0.5f)) {
+        Row(Modifier.weight(0.3f)) {
             ComposableInfoCard(
                 title = "test1",
                 description = "description1",

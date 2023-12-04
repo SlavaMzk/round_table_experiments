@@ -1,3 +1,7 @@
+@file:Suppress("PrivatePropertyName", "PrivatePropertyName", "PrivatePropertyName",
+    "PrivatePropertyName", "PrivatePropertyName", "PrivatePropertyName"
+)
+
 package com.example.jack_experiment.birthday.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -7,6 +11,9 @@ import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 
 
+@Suppress("PrivatePropertyName", "PrivatePropertyName", "PrivatePropertyName",
+    "PrivatePropertyName"
+)
 private val DarkColorPalette = darkColors(
     primary = Purple200,
     primaryVariant = Purple700,

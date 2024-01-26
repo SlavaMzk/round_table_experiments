@@ -68,7 +68,7 @@ dependencies {
     implementation "androidx.compose.material3:material3-window-size-class"
     implementation "androidx.compose.material:material-icons-extended"
 
-    implementation 'com.google.accompanist:accompanist-themeadapter-material:0.32.0'
+    implementation 'com.google.accompanist:accompanist-themeadapter-material:0.34.0'
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation platform('androidx.compose:compose-bom:2024.01.00')
